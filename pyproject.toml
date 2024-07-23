@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pointcloud"
+version = "0.1.0"
+description = ""
+authors = ["blurrrryface <hl852456098@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = ">=1.23.0,<2.0.0"
+opencv-python = "^4.10.0.84"
+open3d = "^0.18.0"
+ultralytics = "^8.2.63"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
